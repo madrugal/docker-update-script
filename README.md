@@ -14,9 +14,9 @@ This is a Bash script to automatically update and rollback standalone Docker con
 ## 🚀 Quick Start
 
 ```bash
-bash docker-update.sh --containers my_app
-bash docker-update.sh --file docker-compose.yml
-bash docker-update.sh --rollback my_app
+./docker-update.sh --containers my_app
+./docker-update.sh --file docker-compose.yml
+./docker-update.sh --rollback my_app
 ```
 
 ## ⚙️ Configuration
@@ -65,4 +65,4 @@ This project is released under the [CC0 1.0 Universal](LICENSE) license.
 You may use it freely, for any purpose, without attribution.
 
 ---
-Made with ❤️ by [Your GitHub Username]
+Made with ❤️ by [madrugal]
