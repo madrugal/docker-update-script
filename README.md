@@ -11,10 +11,10 @@ This is a Bash script to automatically update and rollback standalone Docker con
 - 🧠 **Automatic detection** of Compose-managed containers when using container mode
 - 🔁 **Rollback support**: choose previous versions from log history
 - 🧹 **Prunes old images** to free disk space
-- 🎨 **Colored output** and detailed **error reporting**
 - 📝 **Log file output** for all actions (container name, image, digest, timestamp, type)
+- 🎨 **Colored output** and detailed **error reporting**
 - 🔒 **Safe fallback** to `/tmp/docker-update.log` if no log path is configured
-- 🧪 **Dry-run support planned** (not implemented yet)
+
 
 ---
 
@@ -25,7 +25,6 @@ Download and make it executable:
 ```bash
 curl -L https://github.com/madrugal/docker-update-script/releases/latest/download/docker-update.sh -o docker-update.sh
 chmod +x docker-update.sh
-./docker-update.sh --containers my_app
 ```
 
 Run as you wish:
